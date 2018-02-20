@@ -16,3 +16,4 @@
 	<meta name="twitter:title" content="Chris Tully | Web Developer | Digital Marketer" />
 	<meta name="twitter:site" content="" />
 <!-- End OG Values -->
+<!-- End Meta -->
