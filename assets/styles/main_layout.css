@@ -45,7 +45,7 @@ button,
 input,
 select,
 textarea {
-    font-family: sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #222
 }
 
@@ -319,7 +319,8 @@ td {
 }
 
 .mid-color-text {
-    color: #999
+    color: #999;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .semi-dark,
@@ -353,6 +354,12 @@ td {
 .dark-semi-transparent {
     background-color: #333;
     background-color: rgba(33, 33, 33, 0.8)
+}
+
+.dark-text{
+    font-family: 'Oswald', sans-serif;
+    color:#575757;
+    font-weight:700;
 }
 
 .dark-text,
@@ -416,8 +423,18 @@ textarea {
 }
 
 body {
-    background-image: url('../img/backgrounds/lines.png')
+    
+
 }
+
+.background{
+    background: url('../images/landscape_background.jpeg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 body {
     font: 12px Helvetica, Arial, sans-serif
@@ -781,13 +798,15 @@ footer a:visited {
 }
 
 #name-header h1 {
-    font-size: 64px;
-    margin-bottom: 0
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: 'Press Start 2P', cursive;
+    color:#222;
 }
 
 #name-header h2 {
     font-weight: 400;
-    font-size: 32px;
+    font-size: 16px;
     margin-top: .7em;
     margin-left: .6em;
     margin-bottom: .5em
@@ -797,10 +816,10 @@ footer a:visited {
     position: relative;
     width: 660px;
     height: 360px;
-    background-image: url('../img/backgrounds/grid.png');
-    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1), inset 0 0 30px rgba(0, 0, 0, 0.05);
-    -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1), inset 0 0 30px rgba(0, 0, 0, 0.05);
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1), inset 0 0 30px rgba(0, 0, 0, 0.05)
+  background-color: rgba(0, 138, 196, 0.6);
+background: rgba(0, 138, 196, 0.6);
+color: rgba(0, 138, 196, 0.6);
+   
 }
 
 #main-navigation {
@@ -897,7 +916,8 @@ footer a:visited {
     float: left;
     font-size: 12px;
     margin-left: 10px;
-    margin-top: 7px
+    margin-top: 7px;
+    font-weight:700;
 }
 
 #about p.secondary {

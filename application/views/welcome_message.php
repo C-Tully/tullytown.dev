@@ -11,10 +11,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<?php $this->load->view('components/header/title'); ?>
 		<?php $this->load->view('components/header/schema'); ?>
 
-		<link rel="stylesheet" type="text/css" href="<?php echo base_url('/styles/main_layout.css');?>">	
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url('/assets/styles/main_layout.css');?>">
+		<link href="https://fonts.googleapis.com/css?family=Oswald|Press+Start+2P" rel="stylesheet">
 	</head>
 
-<body>
+<body class="background">
 
 <div id="container">
   	
@@ -43,18 +44,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	    			<div class="inner-border"></div>
 	    			<h1 class="dark-text">About Me</h1>
 	    			
-	    			<aside><img src="img/profile.png" alt="Profile"></aside>
+	    			<aside><img src="/assets/images/profile_pic_pixel_120x120.png" alt="Profile"></aside>
 	    			<p>
-	    				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-	    				labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-	    				laboris nisi ut aliquip.
+	    				Hi I'm Chris. I develop web sites, and excel at various digital marketing aspects.
 					</p>
 					<p class="secondary">
-						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-						pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-						<a class="text-link" href="#">deserunt</a> mollit anim id est laborum. Sed ut perspiciatis 
-						unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-						eaque ipsa quae.
+						
 					</p>
 	    		</article>
 	    		<div id="social-links">
@@ -282,6 +277,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="panel" style="top: 0px; left: 0px; background-position: 0px 0px;"></div><div class="panel" style="top: 0px; left: 60px; background-position: -60px 0px;"></div><div class="panel" style="top: 0px; left: 120px; background-position: -120px 0px;"></div><div class="panel" style="top: 0px; left: 180px; background-position: -180px 0px;"></div><div class="panel" style="top: 0px; left: 240px; background-position: -240px 0px;"></div><div class="panel" style="top: 0px; left: 300px; background-position: -300px 0px;"></div><div class="panel" style="top: 0px; left: 360px; background-position: -360px 0px;"></div><div class="panel" style="top: 0px; left: 420px; background-position: -420px 0px;"></div><div class="panel" style="top: 0px; left: 480px; background-position: -480px 0px;"></div><div class="panel" style="top: 0px; left: 540px; background-position: -540px 0px;"></div><div class="panel" style="top: 0px; left: 600px; background-position: -600px 0px;"></div><div class="panel" style="top: 60px; left: 0px; background-position: 0px -60px;"></div><div class="panel" style="top: 60px; left: 60px; background-position: -60px -60px;"></div><div class="panel" style="top: 60px; left: 120px; background-position: -120px -60px;"></div><div class="panel" style="top: 60px; left: 180px; background-position: -180px -60px;"></div><div class="panel" style="top: 60px; left: 240px; background-position: -240px -60px;"></div><div class="panel" style="top: 60px; left: 300px; background-position: -300px -60px;"></div><div class="panel" style="top: 60px; left: 360px; background-position: -360px -60px;"></div><div class="panel" style="top: 60px; left: 420px; background-position: -420px -60px;"></div><div class="panel" style="top: 60px; left: 480px; background-position: -480px -60px;"></div><div class="panel" style="top: 60px; left: 540px; background-position: -540px -60px;"></div><div class="panel" style="top: 60px; left: 600px; background-position: -600px -60px;"></div><div class="panel" style="top: 120px; left: 0px; background-position: 0px -120px;"></div><div class="panel" style="top: 120px; left: 60px; background-position: -60px -120px;"></div><div class="panel" style="top: 120px; left: 120px; background-position: -120px -120px;"></div><div class="panel" style="top: 120px; left: 180px; background-position: -180px -120px;"></div><div class="panel" style="top: 120px; left: 240px; background-position: -240px -120px;"></div><div class="panel" style="top: 120px; left: 300px; background-position: -300px -120px;"></div><div class="panel" style="top: 120px; left: 360px; background-position: -360px -120px;"></div><div class="panel" style="top: 120px; left: 420px; background-position: -420px -120px;"></div><div class="panel" style="top: 120px; left: 480px; background-position: -480px -120px;"></div><div class="panel" style="top: 120px; left: 540px; background-position: -540px -120px;"></div><div class="panel" style="top: 120px; left: 600px; background-position: -600px -120px;"></div><div class="panel" style="top: 180px; left: 0px; background-position: 0px -180px;"></div><div class="panel" style="top: 180px; left: 60px; background-position: -60px -180px;"></div><div class="panel" style="top: 180px; left: 120px; background-position: -120px -180px;"></div><div class="panel" style="top: 180px; left: 180px; background-position: -180px -180px;"></div><div class="panel" style="top: 180px; left: 240px; background-position: -240px -180px;"></div><div class="panel" style="top: 180px; left: 300px; background-position: -300px -180px;"></div><div class="panel" style="top: 180px; left: 360px; background-position: -360px -180px;"></div><div class="panel" style="top: 180px; left: 420px; background-position: -420px -180px;"></div><div class="panel" style="top: 180px; left: 480px; background-position: -480px -180px;"></div><div class="panel" style="top: 180px; left: 540px; background-position: -540px -180px;"></div><div class="panel" style="top: 180px; left: 600px; background-position: -600px -180px;"></div><div class="panel" style="top: 240px; left: 0px; background-position: 0px -240px;"></div><div class="panel" style="top: 240px; left: 60px; background-position: -60px -240px;"></div><div class="panel" style="top: 240px; left: 120px; background-position: -120px -240px;"></div><div class="panel" style="top: 240px; left: 180px; background-position: -180px -240px;"></div><div class="panel" style="top: 240px; left: 240px; background-position: -240px -240px;"></div><div class="panel" style="top: 240px; left: 300px; background-position: -300px -240px;"></div><div class="panel" style="top: 240px; left: 360px; background-position: -360px -240px;"></div><div class="panel" style="top: 240px; left: 420px; background-position: -420px -240px;"></div><div class="panel" style="top: 240px; left: 480px; background-position: -480px -240px;"></div><div class="panel" style="top: 240px; left: 540px; background-position: -540px -240px;"></div><div class="panel" style="top: 240px; left: 600px; background-position: -600px -240px;"></div><div class="panel" style="top: 300px; left: 0px; background-position: 0px -300px;"></div><div class="panel" style="top: 300px; left: 60px; background-position: -60px -300px;"></div><div class="panel" style="top: 300px; left: 120px; background-position: -120px -300px;"></div><div class="panel" style="top: 300px; left: 180px; background-position: -180px -300px;"></div><div class="panel" style="top: 300px; left: 240px; background-position: -240px -300px;"></div><div class="panel" style="top: 300px; left: 300px; background-position: -300px -300px;"></div><div class="panel" style="top: 300px; left: 360px; background-position: -360px -300px;"></div><div class="panel" style="top: 300px; left: 420px; background-position: -420px -300px;"></div><div class="panel" style="top: 300px; left: 480px; background-position: -480px -300px;"></div><div class="panel" style="top: 300px; left: 540px; background-position: -540px -300px;"></div><div class="panel" style="top: 300px; left: 600px; background-position: -600px -300px;"></div></div>
     <footer>
 		<?php $this->load->view('components/footer/footer.php'); ?>
+
     </footer>
 </div>
 
