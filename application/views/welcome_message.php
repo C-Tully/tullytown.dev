@@ -28,27 +28,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div id="main" class="light" role="main">
     	<div class="outer-border"></div>
     	
-		<nav  class="dark semi-light-text">
-			<ul id="main-navigation">
-				<li title="Home">
+		<nav id="main-navigation" class="dark semi-light-text">
+			<ul data-title="home"  id="navigation-items">
+				<li data-title="home" title="Home">
 					<a data-title="home" class="active">
 						<img src="/assets/images/user.png" alt="Home">
 						<img class="active-image" src="/assets/images/user_dark.png" alt="Home">
 					</a>
 				</li>
-				<li title="Resume">
+				<li data-title="resume" title="Resume">
 					<a data-title="resume">
 						<img src="/assets/images/document_fill.png" alt="Resume">
 						<img class="active-image" src="/assets/images/document_fill_dark.png" alt="Resume">
 					</a>
 				</li>
-				<li title="Portfolio">
+				<li data-title="portfolio" title="Portfolio">
 					<a data-title="portfolio">
-						<img src="/ass\ets/images/folder_fill.png" alt="Portfolio">
+						<img src="/assets/images/folder_fill.png" alt="Portfolio">
 						<img class="active-image" src="/assets/images/folder_fill_dark.png" alt="Portfolio">
 					</a>
 				</li>
-				<li title="Contact">
+				<li data-title="contact" title="Contact">
 					<a data-title="contact">
 						<img src="/assets/images/mail_alt.png" alt="Contact">
 						<img class="active-image" src="/assets/images/mail_alt_dark.png" alt="Mail">

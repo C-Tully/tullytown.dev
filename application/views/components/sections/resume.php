@@ -1,4 +1,4 @@
-<section id="resume" class="semi-dark-text hidden">
+<section id="resume" data-title="resume" class="semi-dark-text hidden">
 
 	<div class="left-column">
 		<div class="inner-border"></div>

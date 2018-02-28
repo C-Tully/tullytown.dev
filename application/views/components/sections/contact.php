@@ -1,5 +1,6 @@
-<section id="contact" class="hidden">
-	<h1 class="dark-text">Contact Me</h1>
+<section data-title="contact" id="contact" class="hidden">
+
+	<h2 class="dark-text">Contact Me</h2>
 	<form action="sendform.php" method="post" id="contact-form">
 		<div class="inner-border"></div>
 		<input type="text" name="name" id="contact-name" placeholder="Name" size="30">
