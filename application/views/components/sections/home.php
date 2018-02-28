@@ -1,4 +1,4 @@
-<section id="home" class="semi-dark-text">
+<section id="home" data-status="current" class="semi-dark-text">
 	    		
 	<article id="about">
 		<div class="inner-border"></div>

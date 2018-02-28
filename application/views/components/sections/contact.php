@@ -1,4 +1,4 @@
-<section id="contact">
+<section id="contact" class="hidden">
 	<h1 class="dark-text">Contact Me</h1>
 	<form action="sendform.php" method="post" id="contact-form">
 		<div class="inner-border"></div>

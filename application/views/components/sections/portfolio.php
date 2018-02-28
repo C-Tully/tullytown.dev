@@ -1,4 +1,4 @@
-<section id="portfolio">
+<section id="portfolio" class="hidden">
 	<div id="portfolio-timer" class="semi-light"></div>
 	<div id="portfolio-info" class="semi-light-text dark-semi-transparent"></div>
 	<nav id="portfolio-navigation"><div class="portfolio-button active"></div><div class="portfolio-button"></div><div class="portfolio-button"></div><div class="portfolio-button"></div><div class="portfolio-button"></div><div class="portfolio-button"></div></nav>
