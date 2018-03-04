@@ -16,8 +16,8 @@
 		<div class="inner-border"></div>
 		<ul class="semi-dark-text">
 			<li><img src="img/icons/UI/map_pin_stroke.png" alt="Location">1523 Lorem St, <br> <span class="second-row">Ipsum, Dolor</span></li>
-			<li><img src="img/icons/UI/iphone.png" alt="Phone">(123) 456 789 00<br><span class="second-row">(987) 654 321 00</span></li>
-			<li><a href="mailto:john@doe.com"><img src="img/icons/UI/mail.png" alt="Email">john@doe.com</a></li>
+			<!--<li><img src="img/icons/UI/iphone.png" alt="Phone">(123) 456 789 00<br><span class="second-row">(987) 654 321 00</span></li>-->
+			<li><a href="mailto:christully12@gmail.com"><img src="img/icons/UI/mail.png" alt="Email">christully12@gmail.com</a></li>
 			<li><a href="#"><img src="img/icons/UI/home.png" alt="Homepage">www.jdcompany.com</a></li>
 			<li><a href="#"><img src="img/icons/UI/user_alt.png" alt="vCard"><strong>Download My vCard</strong></a></li>
 		</ul>

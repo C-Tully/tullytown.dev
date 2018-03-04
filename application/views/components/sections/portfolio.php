@@ -4,8 +4,44 @@
 	<div id="portfolio-info" class="semi-light-text dark-semi-transparent"></div>
 	<nav id="portfolio-navigation"><div class="portfolio-button active"></div><div class="portfolio-button"></div><div class="portfolio-button"></div><div class="portfolio-button"></div><div class="portfolio-button"></div><div class="portfolio-button"></div></nav>
 	<div id="grid-overlay" style="display: none;"></div>
-	
-	<ul id="portfolio-images" class="semi-light-text">
+	        <div class="container">
+            <div class="carousel">
+                <input type="radio" id="carousel-1" name="carousel" checked>
+                <input type="radio" id="carousel-2" name="carousel">
+                <input type="radio" id="carousel-3" name="carousel">
+                <input type="radio" id="carousel-4" name="carousel">
+                <input type="radio" id="carousel-5" name="carousel">
+                <ul class="carousel__items">
+                    <li class="carousel__item"><img src="assets/images/img/slide1.jpg" alt=""></li>
+                    <li class="carousel__item"><img src="assets/images/img/slide2.jpg" alt=""></li>
+                    <li class="carousel__item"><img src="assets/images/img/slide3.jpg" alt=""></li>
+                    <li class="carousel__item"><img src="assets/images/img/slide4.jpg" alt=""></li>
+                    <li class="carousel__item"><img src="assets/images/img/slide5.jpg" alt=""></li>
+                </ul>
+                <div class="carousel__prev">
+                    <label for="carousel-1"></label>
+                    <label for="carousel-2"></label>
+                    <label for="carousel-3"></label>
+                    <label for="carousel-4"></label>
+                    <label for="carousel-5"></label>
+                </div>
+                <div class="carousel__next">
+                    <label for="carousel-1"></label>
+                    <label for="carousel-2"></label>
+                    <label for="carousel-3"></label>
+                    <label for="carousel-4"></label>
+                    <label for="carousel-5"></label>
+                </div>
+                <div class="carousel__nav">
+                    <label for="carousel-1"></label>
+                    <label for="carousel-2"></label>
+                    <label for="carousel-3"></label>
+                    <label for="carousel-4"></label>
+                    <label for="carousel-5"></label>
+                </div>
+            </div>
+        </div>
+<!-- 	<ul id="portfolio-images" class="semi-light-text">
 		<li class="first">
 			<img src="img/image1.jpg" alt="" style="display: block;">
 			<aside class="dark-semi-transparent">
@@ -85,7 +121,7 @@
 				<a href="#" class="portfolio-link">Visit Site</a>
 			</aside>
 		</li>
-	</ul>
+	</ul> -->
 	<noscript>
 		&lt;div class="dark-semi-transparent semi-light-text"&gt;Please enable Javascript to see more of my projects.&lt;/div&gt;
 	</noscript>
