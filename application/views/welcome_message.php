@@ -13,22 +13,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url('/assets/styles/main_layout.css');?>">
         <link rel="stylesheet" type="text/css" href="<?php echo base_url('/assets/styles/style.css');?>">
-		<link href="https://fonts.googleapis.com/css?family=Oswald|Press+Start+2P" rel="stylesheet">
+		<link href="" rel="stylesheet">
 		<script type="text/javascript" defer="" src="<?php echo base_url('/assets/scripts/core.js');?>"></script>
 	</head>
 
 <body class="background">
 
 <div id="container">
-  	
+  	  
   	
     <hgroup id="name-header">
 		<h1><a href="">Chris <span class="surname-color">Tully</span></a></h1>
 		<h2 class="mid-color-text"><em>Web Developer | Digital Marketer  </em></h2>
     </hgroup>
     <div id="main" class="light" role="main">
+
     	<div class="outer-border"></div>
-    	
+
+
 		<nav id="main-navigation" class="dark semi-light-text">
 			<ul data-title="home"  id="navigation-items">
 				<li data-title="home" title="Home">
@@ -58,7 +60,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</ul>
 		</nav>
 		<div id='sectionsWrapper' class="scroll-wrapper">
-					
+	
 			<?php $this->load->view('components/sections/home'); ?>
 			<?php $this->load->view('components/sections/resume'); ?>
 
