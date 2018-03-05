@@ -9,6 +9,7 @@
 			<ul class="bar-graph">
 				<li data-graph-percent="100" style="height: 28px; line-height: 28px;"><div class="bar" style="width: 120px; height: 23px;"></div><span class="bar-title">HTML/CSS</span>
 					<aside class="content-area">
+					<div class="inner-border"></div>
 						<p>
 							At the core of any good developer is their base knowledge of how to use HTML,CSS and to understand AODA standards.
 						</p>
@@ -21,6 +22,7 @@
 				</li>
 				<li data-graph-percent="70" style="height: 28px; line-height: 28px;"><div class="bar"  style="width: 150px; height: 23px;"></div><span class="bar-title">PhP</span>
 					<aside class="content-area">
+					<div class="inner-border"></div>
 						<p>
 							This is one of my core skill sets. I oringinally took a course to learn this language at Fanshawe College.
 						</p>
@@ -33,6 +35,7 @@
 				</li>
 				<li data-graph-percent="85" style="height: 28px; line-height: 28px;"><div class="bar" style="width: 127px; height: 23px;"></div><span class="bar-title">Javascript</span>
 					<aside class="content-area">
+					<div class="inner-border"></div>
 						<p>
 						Write any info about the skill here.
 						You can include any number of skillsets in the graph to the left, 
@@ -47,6 +50,7 @@
 				</li>
 				<li data-graph-percent="55" style="height: 28px; line-height: 28px;"><div class="bar" style="width: 82px; height: 23px;"></div><span class="bar-title">Adwords</span>
 					<aside class="content-area">
+					<div class="inner-border"></div>
 						<p>
 						Write any info about the skill here.
 						You can include any number of skillsets in the graph to the left, 
