@@ -4,7 +4,22 @@
 	<div id="portfolio-info" class="semi-light-text dark-semi-transparent"></div>
 	<nav id="portfolio-navigation"><div class="portfolio-button active"></div><div class="portfolio-button"></div><div class="portfolio-button"></div><div class="portfolio-button"></div><div class="portfolio-button"></div><div class="portfolio-button"></div></nav>
 	<div id="grid-overlay" style="display: none;"></div>
-	        <div class="container">
+        <div class="container">
+        	<div class="lds-css ng-scope">
+			<div class="lds-spinner" style="100%;height:100%">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
             <div class="carousel">
                 <input type="radio" id="carousel-1" name="carousel" checked>
                 <input type="radio" id="carousel-2" name="carousel">

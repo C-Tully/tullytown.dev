@@ -16,6 +16,12 @@
     z-index: 3;
 }
 
+.lds-spinner{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
 *, *:before, *:after {
  /*   box-sizing: border-box;
     -webkit-box-sizing: border-box;
