@@ -27,14 +27,11 @@ function changeSection(selc){
     var selection = selc,
         dataAtr = selc.dataset.title,
         sections = document.getElementById('sectionsWrapper').getElementsByTagName('section');
-
         //change section class 
         for (i = 0; i < sections.length; i++) { 
             if(sections[i].dataset.title == dataAtr){
                 removeClass(sections[i],'hidden');
-                addClass(sections[i],'activeSec');
-                console.log(sections[i]);
-
+                addClass(sections[i],'activeSec');               
             } else {
                  addClass(sections[i],'hidden');
             }
@@ -58,8 +55,7 @@ function changeSkillSet(content,contentBlock){
     // Todo: Fancy data transition here
     if(contentBlock.innerHTML = skillSet_content){
         return true;
-    } else{
-        console.log(false);
+    } else{       
         return false;
     }
 }
@@ -137,13 +133,12 @@ document.onreadystatechange = function () {
     }
 
     for (i = 0; i < skillSet.length; i++){
-          if(skillSet[i]){
+        if(skillSet[i]){
             skillSet[i].onclick = function(){  
                 changeSkillSet(this.querySelector('.content-area').innerHTML,contentArea);            
             };
 
         }  
     }
-
   }
 }();
