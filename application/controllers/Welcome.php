@@ -1,4 +1,5 @@
 <?php
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
@@ -20,6 +21,41 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$this->load->library('form_validation');
+		//$this->load->library('../controllers/validation');
+		   $config = array(
+        	 array(
+                'field' => 'name',
+                'label' => 'Name',
+                'rules' => 'required',
+                 'errors' => array(
+                	'required' => 'You must provide a %s.',
+            	)
+        ),
+        	array(
+                'field' => 'email',
+                'label' => 'Email',
+                'rules' => 'required',
+                'errors' => array(
+                	'required' => 'You must provide a %s.',
+            	)
+            )
+        );
+
+       
+		$this->load->helper(array('form', 'url'));
+		$this->form_validation->set_rules($config);
+
+
+		//Todo: If the validation fails to run then what?
+        if ($this->form_validation->run() == FALSE)
+        {     
+           $this->load->view('welcome_message');
+         } else {
+         	  $this->load->view('welcome_message'); //load error message?
+         }
+
+		
+		
 	}
 }

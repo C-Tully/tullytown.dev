@@ -2,17 +2,35 @@
 
 	<h2 class="dark-text">Contact Me</h2>
 		<div class="form_error">
-          <?php echo validation_errors(); ?>
+          <?php //echo validation_errors(); ?>
     	</div>         
-        <?php echo form_open(); ?>
+        <?php echo form_open('form/submit'); ?>
 			<div class="inner-border"></div>
-			<input type="text" name="name" id="contact-name" placeholder="Name" size="30" required>		
-			<input type="text" name="email" id="contact-email" placeholder="Email" size="30" required>		
+			<?php 
+				echo form_input(array(
+				 	'name'          => 'name',
+			        'id'            => 'contact-name',
+			        'size'          => '30',
+			        'style'         => 'width:50%',
+			        'placeholder' 	=> 'Name',
+			        'Title'			=> 'Name'
+			));				 
+				echo form_input(array(
+				 	'name'          => 'email',
+			        'id'            => 'contact-email',
+			        'size'          => '30',
+			        'placeholder' 	=> 'Email',
+			        'Title'			=> 'Email'
+			)); ?>					
 			<textarea name="message" id="contact-message" cols="65" rows="10" placeholder="Message..."></textarea>
-			<input type="submit" name="submit" value="Submit" id="contact-submit" class="semi-dark semi-light-text">
+			 <?php echo form_submit('submit button', 'Get in Touch!',array(
+			 	'id' => 'contact-submit',
+			 	'class' => 'semi-dark semi-light-text'
+			 ));  ?>
+			<!-- <input type="submit" name="submit" value="Submit" id="contact-submit" class="semi-dark semi-light-text"> -->
 			<span class="error" id="message-error">Type in a message first</span>
-			<span class="success" id="message-success">I'll get back to you soon!</span>
-		</form>
+			<span class="success" id="message-success">I'll get back to you soon!</span>		
+		<?php echo form_close(); ?>
 	<div id="contact-info">
 		<div class="inner-border"></div>
 		<ul class="semi-dark-text">

@@ -17,7 +17,6 @@ function changeNavClass(selectedNav,navBar){
                 removeClass(navBar[i],'active');
             }
         }
-
     }
 }
 
