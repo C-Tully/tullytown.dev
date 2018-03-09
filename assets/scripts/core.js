@@ -22,8 +22,7 @@ function changeNavClass(selectedNav,navBar){
 }
 
 
-function changeSection(selc){
-    
+function changeSection(selc){    
     var selection = selc,
         dataAtr = selc.dataset.title,
         sections = document.getElementById('sectionsWrapper').getElementsByTagName('section');
@@ -47,9 +46,8 @@ function changeSection(selc){
 */
 
 function changeSkillSet(content,contentBlock){
-
-    var skillSet_content = content;
-    var contentArea = contentBlock;
+    var skillSet_content = content,
+         contentArea = contentBlock;
     //Clear previous data
     contentBlock.innerHTML = '';
     // Todo: Fancy data transition here
@@ -77,7 +75,6 @@ function addClass(el, classNameToAdd){
 * @returns: N/A
 */
 function removeClass(el, classNameToRemove){
-
     var elClass = ' ' + el.className + ' ';
     while(elClass.indexOf(' ' + classNameToRemove + ' ') !== -1){
          elClass = elClass.replace(' ' + classNameToRemove + ' ', '');     

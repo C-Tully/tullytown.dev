@@ -143,7 +143,8 @@ body {
     width: 40px;
     height: 40px;
     position: absolute;
-    top: 50%;
+/*    top: 50%;*/
+    top:45%;
     -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -209,6 +210,7 @@ body {
     text-align: center;
     width: 100%;
     z-index: 3;
+     top:50%;
 }
 
 .carousel__nav > label {
@@ -219,4 +221,5 @@ body {
     margin: 0 .125%;
     width: 20px;
     height: 20px;
+
 }
