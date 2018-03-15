@@ -25,6 +25,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <hgroup id="name-header">
 		<h1><a href="">Chris <span class="surname-color">Tully</span></a></h1>
 		<h2 class="mid-color-text"><em>Web Developer | Digital Marketer  </em></h2>
+        <h2 class="form_message"><?php if(isset($form_submit_status)){
+                echo $form_submit_status;
+            } ?></h2>
     </hgroup>
     <div id="main" class="light" role="main">
 

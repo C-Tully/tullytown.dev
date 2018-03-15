@@ -88,6 +88,6 @@
 						</div>
 		</article>
 		<noscript>&lt;strong&gt;Please enable Javascript to see info about my skillset, or&lt;/strong&gt;</noscript>
-		<a class="resume-download" href="#"><strong>Download Full Resume (PDF)</strong></a>
+		<!-- <a class="resume-download" href="#"><strong>Download Full Resume (PDF)</strong></a> -->
 	</article>
 </section>

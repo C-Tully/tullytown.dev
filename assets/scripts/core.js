@@ -108,10 +108,15 @@ function hasClass(element, classs) {
     return (' ' + element.className + ' ').indexOf(' ' + classs+ ' ') > -1;
 }
 
+function fadeOutDiv(){
+    $('.form_message').fadeOut(5000);
+}
+
 
 document.onreadystatechange = function () {
   var state = document.readyState;
   if (state === 'interactive') {
+    fadeOutDiv();
     //Refactor: Restrict function calls to specific page calls.
     var nav = document.getElementById('navigation-items').getElementsByTagName('li');
 

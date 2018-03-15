@@ -27,10 +27,10 @@
                 <input type="radio" id="carousel-4" name="carousel">
                 <input type="radio" id="carousel-5" name="carousel">
                 <ul class="carousel__items">
-                    <li class="carousel__item"><img src="assets/images/img/slide1.jpg" alt=""></li>
-                    <li class="carousel__item"><img src="assets/images/img/slide2.jpg" alt=""></li>
-                    <li class="carousel__item"><img src="assets/images/img/slide3.jpg" alt=""></li>
-                    <li class="carousel__item"><img src="assets/images/img/slide4.jpg" alt=""></li>
+                    <li class="carousel__item"><img src="assets/images/holtrenfrew.png" alt="My involvement with HoltRenfrew's Digital Campaign."></li>
+                    <li class="carousel__item"><img src="assets/images/roots.png" alt="My involvement with Roots Digital Campaigns"></li>
+                    <li class="carousel__item"><img src="assets/images/maxliving.png" alt="My involvement with Maxliving"></li>
+                    <li class="carousel__item"><img src="assets/images/greenhouse.png" alt="My involvement with Greenhouse Juice"></li>
                     <li class="carousel__item"><img src="assets/images/img/slide5.jpg" alt=""></li>
                 </ul>
                 <div class="carousel__prev">

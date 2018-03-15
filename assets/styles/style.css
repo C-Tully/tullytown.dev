@@ -173,8 +173,10 @@ body {
     -webkit-linear-gradient(right, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%);
     background: -o-linear-gradient(bottom, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%),
     -o-linear-gradient(right, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%);
-    background: linear-gradient(to top, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%),
-    linear-gradient(to left, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%);
+    /*background: linear-gradient(to top, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%),
+    linear-gradient(to left, #fff 0%, #fff 10%, rgba(51, 51, 51, 0) 10%);*/
+    background: linear-gradient(to top, #060606 0%, #fff 10%, rgba(51, 51, 51, 0) 10%),
+    linear-gradient(to left, #060606 0%, #fff 10%, rgba(51, 51, 51, 0) 10%);
     width: 60%;
     height: 60%;
     top: 20%;
@@ -222,4 +224,8 @@ body {
     width: 20px;
     height: 20px;
 
+}
+
+.contact_form{
+    width:50%;
 }

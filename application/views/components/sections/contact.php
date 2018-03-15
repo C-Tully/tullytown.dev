@@ -4,14 +4,22 @@
 		<div class="form_error">
           <?php //echo validation_errors(); ?>
     	</div>         
-        <?php echo form_open('form/submit'); ?>
+        <?php echo form_open('form/submit', array(
+				 	'name'          => 'form',
+			        'id'            => 'contact-form',
+			        'class'			=> 'contact_form',
+			        'size'          => '30',
+			        
+			        'placeholder' 	=> 'Name',
+			        'Title'			=> 'Name'
+			)); ?>
 			<div class="inner-border"></div>
 			<?php 
 				echo form_input(array(
 				 	'name'          => 'name',
 			        'id'            => 'contact-name',
 			        'size'          => '30',
-			        'style'         => 'width:50%',
+			        'style'         => 'width:100%',
 			        'placeholder' 	=> 'Name',
 			        'Title'			=> 'Name'
 			));				 
@@ -26,8 +34,7 @@
 			 <?php echo form_submit('submit button', 'Get in Touch!',array(
 			 	'id' => 'contact-submit',
 			 	'class' => 'semi-dark semi-light-text'
-			 ));  ?>
-			<!-- <input type="submit" name="submit" value="Submit" id="contact-submit" class="semi-dark semi-light-text"> -->
+			 ));  ?>			
 			<span class="error" id="message-error">Type in a message first</span>
 			<span class="success" id="message-success">I'll get back to you soon!</span>		
 		<?php echo form_close(); ?>

@@ -1,13 +1,14 @@
 <?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 class Submission_handler extends CI_Model {
 
 	public function submit($data){
-			 // $this->title    = $_POST['title']; // please read the below note
-    //             $this->content  = $_POST['content'];
-    //             $this->date     = time();
-		echo 'submit function';
-		die();
-    	$this->db->insert('entries', $this);
+    	if( $this->db->insert('tbl_contact', $data)){
+    		return true;
+    	} else{
+    		return false;
+    	}
+
 
 	}
 
@@ -16,6 +17,10 @@ class Submission_handler extends CI_Model {
 	}
 	
 	public function emailUser($email){
+		if (valid_email('email@somesite.com'))
+		{
+        	// echo 'email is valid';
+		}
 
 	}
 

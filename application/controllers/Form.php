@@ -21,12 +21,19 @@ class Form extends CI_Controller {
 		
 		//get input data
 		$data = array(
-			'Name' => $this->input->post('name'),
+			'name' => $this->input->post('name'),
 			'email' => $this->input->post('email'),
-			'message' => $this->input->post('message')		
+			'message' => $this->input->post('message'),
+			'date_entered' => date("Y-m-d H:i:s")
 		);
-		$this->submission_handler->submit($data);
-		//Pass data to model
+		if( $this->submission_handler->submit($data)){
+
+			$this->load->view('welcome_message', array('form_submit_status' =>'Thanks for contacting me, Some one will be in touch in 48 hours.'));
+
+		} else{
+			$this->load->view('welcome_message', array('form_submit_status' =>'Something has gone wrong, please email me directly at christully12@gmail.com'));
+		}
+		
 
 
 	}
