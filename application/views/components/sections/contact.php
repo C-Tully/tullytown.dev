@@ -43,7 +43,7 @@
 		<ul class="semi-dark-text">
 			<li>
 				<a href="mailto:christully12@gmail.com">
-					<img src="img/icons/UI/mail.png" alt="Email">christully12@gmail.com
+					<img src="assets/images/mail_alt.png" alt="Email">christully12@gmail.com
 				</a>
 			</li>		
 		</ul>

@@ -113,33 +113,80 @@ function fadeOutDiv(){
 }
 
 
+/**Modal and Modal animation. See section Portfolio **/
+function animateModal(modal,modalImg,image,mainNav,outterBar){
+
+    modal.style.display = "block";
+   console.log(image[0].src);
+    modalImg.src = image[0].src;
+
+
+
+}
+
 document.onreadystatechange = function () {
   var state = document.readyState;
-  if (state === 'interactive') {
-    fadeOutDiv();
-    //Refactor: Restrict function calls to specific page calls.
-    var nav = document.getElementById('navigation-items').getElementsByTagName('li');
+    if (state === 'interactive') {
 
-    var skillSet = document.getElementById('skillset').getElementsByTagName('li'),
-        contentArea = document.getElementById('content-block');
-    //Need to refactor this iteration process its being called twice.
-    for (i = 0; i < nav.length; i++) {       
-        if(nav[i]){
-            nav[i].onclick = function(){  
-                removeArrayClass(nav,'active');
-                changeNavClass(this,nav); 
-                changeSection(this);
-            };
-        }            
+        fadeOutDiv();
+
+        var outterBar = document.getElementById('js_outer-border'),
+            carousel = document.getElementById('js_carousel');
+        //Refactor: Restrict function calls to specific page calls.
+        var nav = document.getElementById('navigation-items').getElementsByTagName('li'),
+            mainNav = document.getElementById('main-navigation');
+
+        var skillSet = document.getElementById('skillset').getElementsByTagName('li'),
+            contentArea = document.getElementById('content-block');
+
+        var modal = document.getElementById('myModal'),
+            modalImg = document.getElementById("img01");
+            imageCollection = document.getElementById('js_carousel_items').getElementsByTagName('li'),
+            span = document.getElementsByClassName("close")[0];
+
+        for (i = 0; i < imageCollection.length; i++) {
+                //console.log(imageCollection[i]);
+            if(imageCollection[i]){
+                imageCollection[i].onclick = function(){
+
+                   mainNav.style.display = 'none';
+                   outterBar.style.display = 'none';
+                   carousel.style.display = 'none';
+
+                   console.log(this.getElementsByTagName('img'));
+
+                   animateModal(modal,modalImg, this.getElementsByTagName('img'),mainNav,outterBar);
+                }
+            }
+
+        }
+
+        span.onclick = function() {
+            mainNav.style.display = 'block';
+            outterBar.style.display = 'block';
+            carousel.style.display = 'block';
+            modal.style.display = "none";
+        }
+
+
+        //Need to refactor this iteration process its being called twice.
+        for (i = 0; i < nav.length; i++) {       
+            if(nav[i]){
+                nav[i].onclick = function(){  
+                    removeArrayClass(nav,'active');
+                    changeNavClass(this,nav); 
+                    changeSection(this);
+                };
+            }            
+        }
+
+        for (i = 0; i < skillSet.length; i++){
+            if(skillSet[i]){
+                skillSet[i].onclick = function(){  
+                    changeSkillSet(this.querySelector('.content-area').innerHTML,contentArea);            
+                };
+
+            }  
+        }
     }
-
-    for (i = 0; i < skillSet.length; i++){
-        if(skillSet[i]){
-            skillSet[i].onclick = function(){  
-                changeSkillSet(this.querySelector('.content-area').innerHTML,contentArea);            
-            };
-
-        }  
-    }
-  }
 }();
