@@ -289,3 +289,13 @@ body {
         width: 100%;
     }
 }
+
+
+@media screen and  (max-width: 640px) {
+   .carousel__next > label{
+        right:6%;
+    }
+
+ 
+
+}
