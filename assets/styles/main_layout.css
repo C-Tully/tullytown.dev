@@ -456,7 +456,9 @@ body {
     width:100%;
 }
 
-
+table{
+    margin-bottom:150px;
+}
 
 table tbody tr{
         display: table-row;
@@ -471,10 +473,38 @@ table tbody tr td{
     padding-bottom: 21px;
     text-align: center;
 }
+.team_lead{
+    width:100%;
+    background-color:#4286f4;
+    border-radius: 25px 25px 0 0;
+    height: 50px;
+    position: relative;
+    display:block;
+    text-align:center;
+}
+
+.team_lead h3{
+    color:#FFFFFF;
+    display:inline-block;
+    position:relative;
+
+}
+
+.header_img img{
+        left: -85px;
+    position:relative;
+    }
+.team_lead p{
+    color:#FFFFFF;
+    padding:0;
+    margin-bottom:0;
+   display:inline;
+} 
 
 .quickLink{
     padding-bottom: 15px;
     text-align: center;
+    margin-right:15px;
 }
 
 .quickLink a{
