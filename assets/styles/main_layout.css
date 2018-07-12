@@ -438,6 +438,49 @@ body {
     background-size: cover;
 }
 
+.msf-background{
+    background: url('../images/msf_bg.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.msf-background table th{
+
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.msf-background table{
+    width:100%;
+}
+
+
+
+table tbody tr{
+        display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+        padding-top: 21px;
+    padding-bottom: 21px; 
+}
+
+table tbody tr td{
+    padding-top: 21px;
+    padding-bottom: 21px;
+    text-align: center;
+}
+
+.quickLink{
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.quickLink a{
+ color:#FFA500;
+ font-size:15px;
+}
 
 body {
     font: 12px Helvetica, Arial, sans-serif
@@ -1595,8 +1638,6 @@ color: rgba(0, 138, 196, 0.6);
         margin-left:0;
     }
 
-    .carousel__next > label{
-        right:6%;
-    }
+ 
 
 }

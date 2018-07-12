@@ -255,6 +255,10 @@ body {
     animation-duration: 0.6s;
 }
 
+.msf-background table{
+    background-color:#ffffff;
+}
+
 @-webkit-keyframes zoom {
     from {-webkit-transform:scale(0)} 
     to {-webkit-transform:scale(1)}
